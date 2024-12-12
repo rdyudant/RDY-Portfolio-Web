@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Icon Title Website -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet"/>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>E-Voting BEM UNPERBA</title>
+    </head>
+    <body>        
+        <header class="header" id="header">
+            <nav class="nav container">
+                <span class="nav__logo">
+                    <i class="ri-archive-line"></i> Pemilu BEM UNPERBA
+                </span>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#history" class="nav__link">History</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#vote" class="nav__link">Quick Count</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark Mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle"><b> SELAMAT DATANG </b></span>
+                        <h1 class="home__data-title">di Aplikasi Pemilu <br> Berbasis Website <b> <br> BEM UNPERBA</b></h1>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://vm.tiktok.com/ZSLcKhBe8/" target="_blank" class="home__social-link click">
+                            <i class="ri-tiktok-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bemunperba/" target="_blank" class="home__social-link click">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@bemunperba4721" target="_blank" class="home__social-link click">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Univesitas Perwira Purbalingga</span>
+                            <a href="https://www.unperba.ac.id" target="_blank" class="button button--flex button--link home__info-button click">
+                                Kunjungi <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PERJALANAN ====================-->
+            <section class="about section" id="history">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Perjalanan Awal <br><b>BEM UNPERBA</b> </h2>
+                        <p class="about__description">Pada pertengahan 2020 tepat ketika tahun ke-2 akademik dimulai,
+                            mulai dilakukan banyak kegiatan oleh mahasiswa yang kemudian melahirkan berbagai unit kegiatan dan himpunan
+                            mahasiswa. Universitas tentunya memerlukan organisasi mahasiswa yang mampu menghubungkan seluruh
+                            kegiatan dan himpunan dengan baik, maka dari itu dibentuklah BEM UNPERBA.
+                        </p>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/history1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/history2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== KABINET ====================-->
+            <section class="discover section" id="about">
+                <h2 class="section__title">Kabinet Besar <br> <b>BEM UNPERBA</b> </h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== KABINET 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/about1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Abstraksi</h2>
+                                <span class="discover__description">Kabinet 2020/2022</span>
+                            </div>
+                        </div>
+
+                        <!--==================== KABINET 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/about2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Kencana</h2>
+                                <span class="discover__description">Kabinet 2022/2023</span>
+                            </div>
+                        </div>
+
+                        <!--==================== KABINET 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/about3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Dirandra</h2>
+                                <span class="discover__description">Kabinet 2023/2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PENGALAMAN ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Pengalaman Bersama <br> <b>BEM UNPERBA</b> </h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">3</h2>
+                            <span class="experience__description">Tahun <br> jabatan </span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Total anggota <br> kabinet besar</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">250+</h2>
+                            <span class="experience__description">Postingan <br> media sosial</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Tentang Kami</h2>
+
+                <div class="video__container container">
+                    <div class="video__content">
+
+                        <video id="video-file">
+                            <source src="assets/video/tentang.mp4" type="video/mp4">
+                        </video>
+
+                        <!-- <iframe
+                            id="video-file"
+                            src="https://youtu.be/6Zgi7YoGBrw?si=WklJLLgmdIJwm6w2?enablejsapi=1&rel=0"
+                            frameborder="0"
+                            allow="autoplay; encrypted-media"
+                            allowfullscreen>
+                        </iframe> -->
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PEMILU RAYA ====================-->
+            <section class="paslon section" id="vote">
+            <h2 class="section__title">Hasil Quick Count</h2>
+          
+            <div class="chartjs">
+                <canvas id="piechart" width="50" height="50"></canvas>
+            </div>
+            
+            <div class="card">
+                <div class="stat">
+                    <h3 class="number-h1">100</h3>
+                    <p class="jdul">Jumlah Pemilih Aktif</p>
+                </div>
+                <div class="stat">
+                    <h3 class="number-h1">90</h3>
+                    <p class="jdul">Jumlah Suara Masuk</p>
+                </div>
+                <div class="stat">
+                    <h3 class="number-h1">10</h3>
+                    <p class="jdul">Jumlah Belum Memilih</p>
+                </div>
+            </div>
+            </section>
+
+            <!--==================== LOGIN ====================-->
+            <section class="login section">
+                <div class="login__container container grid">
+                    <h2 class="section__title login__title">Tentukan Pilihanmu <br> Sekarang!</h2>
+                    <p class="login__description">Login terlebih dahulu untuk memilih kandidat,
+                        silahkan hubungi Admin apabila belum memiliki akun.
+                    </p>
+
+                    <div class="login__form">
+                        <a href="login-mhs.html" class="button__mhs"><i class="ri-user-line button__icon"></i>
+                            <br> Masuk sebagai Mahasiswa </a>
+                        <a href="login-adm.html" class="button__adm"><i class="ri-admin-line button__icon"></i>
+                            <br> Masuk sebagai Admin </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsor1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsor2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsor3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsor4.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Quote</h3>
+                        <p class="footer__description"><b>Pemilihan</b> bukanlah tentang <br><b>Pemimpin</b> berikutnya, 
+                            ini tentang <br><b>Generasi</b> selanjutnya.
+                        </p>
+                        <div>
+                            <a href="https://vm.tiktok.com/ZSLcKhBe8/" target="_blank" class="footer__social">
+                                <i class="ri-tiktok-fill click"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bemunperba/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill click"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@bemunperba4721" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill click"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Contact for more information!</h3>
+                        
+                </div>
+            </div>
+            <div class="footer__rights">
+                <p class="footer__copy"><b>&copy; BEM UNPERBA</b> Kabinet 2023/2024.</p>
+                <div class="footer__terms">
+                    <span class="footer__terms-link">Version 1.0</span>
+                </div>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== CHART JS ===============-->
+        <script src="assets/js/Chart.js"></script>
+        
+        <!--=============== QUICK COUNT ===============-->
+        <script  type="text/javascript">
+        var ctx = document.getElementById("piechart").getContext("2d");
+        var data = {
+                    labels: ["Pasangan 1", "Pasangan 2", "Pasangan 3"],
+                    datasets: [
+                    {
+                    label: "Quick Count",
+                    data: [30, 30, 30],
+                    backgroundColor: [
+                        '#29B0D0',
+                        '#2A516E',
+                        '#F07124',
+                        '#CBE0E3',
+                        '#979193'
+                    ]
+                    }
+                    ]
+                    };
+
+        var myPieChart = new Chart(ctx, {
+                        type: 'pie',
+                        data: data,
+                        options: {
+                            responsive: true
+                        }
+                    });
+        </script>
+
+        <!--=============== YouTube API Script ===============-->
+        <script src="https://www.youtube.com/iframe_api"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
