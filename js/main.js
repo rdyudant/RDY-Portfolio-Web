@@ -118,7 +118,7 @@
 
 document.querySelector('#download-cv').addEventListener('click', function (e) {
     e.preventDefault(); // Cegah unduhan langsung
-    const filePath = 'doc/my-cv.pdf';
+    const filePath = 'doc/CV_RDY.pdf';
 
     // Periksa apakah file tersedia di server
     fetch(filePath)
